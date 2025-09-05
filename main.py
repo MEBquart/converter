@@ -6,7 +6,8 @@ def convertCtoF():
     F = (C * 9/5) +32
     print(F)
 
-def convertFtoC():
-    F= float(input("Ievadi C:"))
-    C= (F - 32) * 5/9
-    print(C)
+#convert kms to miles
+def convertKilometrstoMiles():
+    kms = float(input("ievadi attālumu:"))
+    miles = round(kms/1.6, 2)
+    print(f"Rezultāts ir:{miles}")
