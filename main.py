@@ -16,3 +16,22 @@ def convertKilometrstoMiles():
     print(f"Rezultāts ir:{miles}")
 
 convertKilometrstoMiles()
+
+#convert dollar to euro
+def convertdollartoeuro():
+    dollar = float(input("ievadi naudas vērtību:"))
+    if dollar>0:
+        euro = round(dollar*0.86,)
+    else:
+        print("Vērtība nederīga!")
+    print(f"Rezultāts ir:{euro}")
+
+convertdollartoeuro()
+
+def convertArea():
+    square_m = int(input("Kvadrātmetri: "))
+    ha = square_m / 10000
+    print(f"{square_m}kvadrātmetri ir {ha} hektāri.")
+
+
+
