@@ -32,6 +32,7 @@ def convertArea():
     square_m = int(input("Kvadrātmetri: "))
     ha = square_m / 10000
     print(f"{square_m}kvadrātmetri ir {ha} hektāri.")
+convertarea()
 
 
 
